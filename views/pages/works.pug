@@ -1,0 +1,10 @@
+extends ../_template
+
+block variables
+    - var title = 'Мои работы'
+
+block content
+    section.works
+        include ../common/_header
+        include ../sections/_works-slider
+        include ../sections/_works-reviews
